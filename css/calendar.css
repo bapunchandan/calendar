@@ -1,0 +1,11 @@
+td.weekend {
+  color: #eb4034;
+}
+
+th.bg-weekend {
+  background-color: #eb4034;
+}
+
+th.bg-weekdays {
+  background-color: #79acd4;
+}
