@@ -1,11 +1,47 @@
-td.weekend {
-  color: #eb4034;
+.container {
+  width: 100%;
+  height: 100vh;
 }
 
-th.bg-weekend {
-  background-color: #eb4034;
-}
-
-th.bg-weekdays {
+.weeks {
+  display: flex;
   background-color: #79acd4;
+  padding: 7px 0px;
+}
+
+.weeks div {
+  width: 14.28%;
+  text-align: center;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.days div {
+  width: 14.28%;
+  padding: 10px 0px;
+  transition: all 0.4s;
+  border: 1px solid #79acd4;
+}
+
+.days div:hover {
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+
+.today {
+  background-color: #79acd4;
+}
+
+.next-date {
+  color: gray;
+}
+
+@media (max-width: 438px) {
+  .months>.row {
+    width: 100%;
+  }
 }
