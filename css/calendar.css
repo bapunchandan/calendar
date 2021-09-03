@@ -30,10 +30,12 @@
 .days div:hover {
   background-color: #D3D3D3;
   cursor: pointer;
+  color: #000000;
 }
 
 .today {
-  background-color: #79acd4;
+  background-color: #008000;
+  color: #ffffff;
 }
 
 .next-date {
